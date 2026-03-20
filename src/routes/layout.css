@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk:MORF@15&family=Nosifer&display=swap");
+@import "tailwindcss";
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+* {
+  box-sizing: border-box;
+  font-family: "Honk";
+}
+
+.grid-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+
+  background-size: 40px 40px;
+
+  animation: moveGrid 20s linear infinite;
+}
+
+@keyframes moveGrid {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(200px, 40px);
+  }
+}
+
+.grid-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    transparent 60%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  pointer-events: none;
+}
