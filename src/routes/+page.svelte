@@ -210,7 +210,7 @@
               ></div>
 
               <img
-                src="/drawings/Photo-orph.png"
+                src="/myportfolio/drawings/Photo-orph.png"
                 alt=""
                 class="photo-orph absolute -top-6 -right-10 w-500 scale-155 opacity-85"
               />
@@ -219,7 +219,7 @@
                 class="relative w-full h-full rounded-full overflow-hidden border border-white/10 shadow-[0_0_25px_rgba(255,255,255,0.75)]"
               >
                 <img
-                  src="/hero-photo/me.jpg"
+                  src="/myportfolio/hero-photo/me.jpg"
                   alt=""
                   class="w-full h-full object-cover"
                 />
@@ -234,7 +234,7 @@
             I like creating my own mechanics and my own worlds, so I make games.
             I also build websites, and once I start working on something, I tend
             to lose track of time. I enjoy figuring things out, experimenting,
-            and turning ideas into something real. Someday, I want to start my
+            and turning dreams into ideas and ideas into reality . Someday, I want to start my
             own game studio.
           </p>
         </div>
@@ -359,14 +359,14 @@
         </div>
       </section>
       <img
-        src="/drawings/Contact.PNG"
+        src="/myportfolio/drawings/Contact.PNG"
         alt=""
         class="absolute bottom-0 left-1/4 w-50 opacity-60 pointer-events-none z-0"
       />
     </main>
 
     <img
-      src="/drawings/Top.PNG"
+      src="/myportfolio/drawings/Top.PNG"
       alt=""
       class="fixed top-0 right-0 opacity-60 pointer-events-none z-0 w-25 sm:w-41 md:w-65 lg:w-70 xl:w-90"
     />
