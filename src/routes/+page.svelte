@@ -3,6 +3,7 @@
   import gsap from "gsap";
   import { ScrollTrigger } from "gsap/ScrollTrigger";
   import { Github, Linkedin, Mail, Instagram } from "lucide-svelte";
+  import { base } from "$app/paths";
 
   gsap.registerPlugin(ScrollTrigger);
 
@@ -210,7 +211,7 @@
               ></div>
 
               <img
-                src="/myportfolio/drawings/Photo-orph.png"
+                src="{base}/drawings/Photo-orph.png"
                 alt=""
                 class="photo-orph absolute -top-6 -right-10 w-500 scale-155 opacity-85"
               />
@@ -219,7 +220,7 @@
                 class="relative w-full h-full rounded-full overflow-hidden border border-white/10 shadow-[0_0_25px_rgba(255,255,255,0.75)]"
               >
                 <img
-                  src="/myportfolio/hero-photo/me.jpg"
+                  src="{base}/hero-photo/me.jpg"
                   alt=""
                   class="w-full h-full object-cover"
                 />
@@ -359,14 +360,14 @@
         </div>
       </section>
       <img
-        src="/myportfolio/drawings/Contact.PNG"
+        src="{base}/drawings/Contact.PNG"
         alt=""
         class="absolute bottom-0 left-1/4 w-50 opacity-60 pointer-events-none z-0"
       />
     </main>
 
     <img
-      src="/myportfolio/drawings/Top.PNG"
+      src="{base}/drawings/Top.PNG"
       alt=""
       class="fixed top-0 right-0 opacity-60 pointer-events-none z-0 w-25 sm:w-41 md:w-65 lg:w-70 xl:w-90"
     />
