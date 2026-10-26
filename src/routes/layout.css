@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Snowburst+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import "tailwindcss";
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
 * {
   box-sizing: border-box;
-  font-family: "Snowburst One", system-ui;
-  color: antiquewhite;
+  font-family: "Courgette", cursive;
 }
 
 .grid-bg {
