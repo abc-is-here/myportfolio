@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Snowburst+One&display=swap');
 @import "tailwindcss";
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
 * {
   box-sizing: border-box;
-  font-family: "Bungee Inline", sans-serif;
+  font-family: "Snowburst One", system-ui;
+  color: antiquewhite;
 }
 
 .grid-bg {
